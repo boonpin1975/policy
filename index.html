@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GPS Logger Pro | PinangTech</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-dark: #0369a1;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --accent: #34d399;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--text-main);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+            font-weight: 700;
+        }
+        h1 {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 16px;
+            font-size: 2rem;
+            color: var(--primary);
+        }
+        h2 {
+            margin-top: 32px;
+            font-size: 1.35rem;
+            color: #38bdf8;
+        }
+        p, li {
+            color: #cbd5e1;
+        }
+        .meta-box {
+            background: rgba(2, 132, 199, 0.1);
+            border-left: 4px solid var(--primary);
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(52, 211, 153, 0.15);
+            color: var(--accent);
+            border: 1px solid rgba(52, 211, 153, 0.4);
+            border-radius: 6px;
+            padding: 3px 8px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Privacy Policy for GPS Logger Pro</h1>
+
+    <div class="meta-box">
+        <strong>Effective Date:</strong> November 7, 2026<br>
+        <strong>Developer:</strong> PinangTech<br>
+        <strong>Application:</strong> GPS Logger Pro (<span class="badge">com.aistudio.gpslogger.pkxvmt</span>)<br>
+        <strong>Contact Email:</strong> <a href="mailto:boonpin1975@gmail.com">boonpin1975@gmail.com</a>
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>PinangTech ("we", "us", or "our") built <strong>GPS Logger Pro</strong> as an ad-supported utility application. This SERVICE is provided by PinangTech and is intended for use as is. This page informs users regarding our policies with the collection, use, and disclosure of personal information if anyone decides to use our Service.</p>
+    <p>By using GPS Logger Pro, you agree to the collection and use of information in accordance with this policy.</p>
+
+    <h2>2. Information Collection and Use</h2>
+
+    <h3>A. Location Data (Foreground & Background)</h3>
+    <ul>
+        <li><strong>What is collected:</strong> Precise geographic coordinates (GPS latitude, longitude, altitude, speed, bearing, and GNSS satellite telemetry).</li>
+        <li><strong>Purpose:</strong> Location data is collected solely to record travel routes, calculate movement statistics (speed, elevation, distance), display live maps, and alert you of overspeed conditions.</li>
+        <li><strong>Background Location:</strong> When you start tracking, the app utilizes a Foreground Service with background location permission (<code>ACCESS_BACKGROUND_LOCATION</code>) to maintain continuous recording while the app is in the background or when your screen is locked.</li>
+        <li><strong>Storage:</strong> All recorded GPS coordinates and waypoints remain <strong>100% stored on your local device</strong> in an encrypted/local SQLite database. We do <strong>not</strong> transmit, sell, or sync your routes to our own servers.</li>
+    </ul>
+
+    <h3>B. Audio / Microphone (Voice Commands)</h3>
+    <ul>
+        <li><strong>What is used:</strong> The microphone permission (<code>RECORD_AUDIO</code>) is used exclusively for on-device, offline local voice recognition commands (e.g., "start tracking", "stop tracking", "exit").</li>
+        <li><strong>Storage:</strong> Audio data is processed in real time locally and is <strong>never recorded, stored, or sent to external cloud servers</strong>.</li>
+    </ul>
+
+    <h3>C. Bluetooth & Power Automation</h3>
+    <ul>
+        <li><strong>What is used:</strong> Bluetooth connection status is accessed locally to detect when your device connects to or disconnects from your vehicle or headset to automatically start or stop tracking.</li>
+        <li><strong>Storage:</strong> Bluetooth identifiers are stored strictly on your local device preferences.</li>
+    </ul>
+
+    <h3>D. User-Initiated Data Export & Cloud Backup</h3>
+    <ul>
+        <li>Exported files (GPX, KML, KMZ, GeoJSON, CSV, NMEA) are generated locally on your device.</li>
+        <li>Google Drive cloud backup is strictly optional and only triggered when you authenticate with your Google account to back up route files to your personal Google Drive folder.</li>
+    </ul>
+
+    <h2>3. Third-Party Services & Advertising</h2>
+    <p>This application integrates third-party services that may collect information used to identify you or your device:</p>
+    <h3>Google Mobile Ads (AdMob)</h3>
+    <ul>
+        <li>We display advertisements provided by Google AdMob.</li>
+        <li>Google AdMob may collect and process device identifiers (such as Google Advertising ID), IP address, and app usage data to serve relevant or non-personalized advertisements and perform analytics.</li>
+        <li>For more information, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from partner sites/apps</a>.</li>
+    </ul>
+
+    <h2>4. Data Retention and Security</h2>
+    <p>Your recorded trip data is stored locally on your device. You can permanently delete any track, clear tile caches, or wipe app data at any time from within the app settings. We implement commercially acceptable measures to protect the security of your information.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>GPS Logger Pro does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Updates are effective immediately upon posting on this page.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy, please contact us at:</p>
+    <ul>
+        <li><strong>Developer:</strong> PinangTech</li>
+        <li><strong>Email:</strong> <a href="mailto:boonpin1975@gmail.com">boonpin1975@gmail.com</a></li>
+        <li><strong>Portal:</strong> <a href="https://github.com/boonpin1975/policy" target="_blank" rel="noopener">https://github.com/boonpin1975/policy</a></li>
+    </ul>
+
+    <footer>
+        &copy; 2026 PinangTech. All rights reserved. &bull; GPS Logger Pro Policy Portal
+    </footer>
+</div>
+</body>
+</html>
